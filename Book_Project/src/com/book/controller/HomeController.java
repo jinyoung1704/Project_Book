@@ -27,7 +27,6 @@ public class HomeController
 
 		model.addAttribute("name", name);
 		
-		System.out.println("왔다감");
 
 		return "/Main.jsp";
 	}
